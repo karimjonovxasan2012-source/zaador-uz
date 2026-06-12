@@ -1,55 +1,96 @@
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#020817;
-color:white;
-}
-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 50px;
-background:#0f172a;
-}
-.logo{
-font-size:32px;
-font-weight:bold;
-border:2px solid white;
-padding:8px 16px;
-}
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-}
-.hero{
-text-align:center;
-padding:120px 20px;
-}
-.hero h1{
-font-size:64px;
-margin:0;
-}
-.btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 24px;
-background:#38bdf8;
-color:black;
-text-decoration:none;
-font-weight:bold;
-border-radius:8px;
-}
-.cards{
-display:flex;
-gap:20px;
-padding:40px;
-justify-content:center;
-flex-wrap:wrap;
-}
-.card{
-background:#0f172a;
-padding:25px;
-border-radius:12px;
-width:280px;
-}
+<!DOCTYPE html>
+
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZAADROT.UZ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">ZT</div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#servers">Servers</a>
+    <a href="#tournaments">Tournaments</a>
+    <a href="#community">Community</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>ZAADROT.UZ</h1>
+    <p>Counter-Strike 2 Community • Tournaments • Streams</p>
+
+```
+<div class="buttons">
+  <a href="#" class="btn">WATCH STREAM</a>
+  <a href="#" class="btn secondary">JOIN COMMUNITY</a>
+</div>
+```
+
+  </div>
+</section>
+
+<section class="stats">
+
+  <div class="stat-box">
+    <h2>500+</h2>
+    <p>Players</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>50+</h2>
+    <p>Tournaments</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>24/7</h2>
+    <p>Servers</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>100%</h2>
+    <p>Community</p>
+  </div>
+
+</section>
+
+<section class="cards" id="tournaments">
+
+  <div class="card">
+    <h2>🏆 Tournaments</h2>
+    <p>Competitive CS2 tournaments and events.</p>
+  </div>
+
+  <div class="card">
+    <h2>⚔ Match Results</h2>
+    <p>Latest match results and rankings.</p>
+  </div>
+
+  <div class="card">
+    <h2>🎮 Live Servers</h2>
+    <p>Fast and stable gaming servers.</p>
+  </div>
+
+  <div class="card">
+    <h2>📺 Streams</h2>
+    <p>Watch live streams and highlights.</p>
+  </div>
+
+</section>
+
+<section class="community" id="community">
+  <h2>JOIN THE COMMUNITY</h2>
+  <p>Become part of the ZAADROT.UZ gaming family.</p>
+</section>
+
+<footer>
+  <p>© 2025 ZAADROT.UZ | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
